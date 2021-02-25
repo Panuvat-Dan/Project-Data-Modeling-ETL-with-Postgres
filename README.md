@@ -10,7 +10,7 @@ the data.Thus, as a data engineer requires skill to collect and transform and lo
 ## Database schema 
 
 This project aims to utilize star schema by having fact table as songplays and the rest are dimention tables as picture below,
-![alt text](u)
+![alt text](https://github.com/Panuvat-Dan/Project-Data-Modeling-ETL-with-Postgres/blob/main/Entity_diagram.png)
 
 ## Files
 
