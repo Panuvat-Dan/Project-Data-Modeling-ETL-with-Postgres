@@ -56,9 +56,9 @@ After testing,ETL.py will work as following for processing the data:
     }
 ## How to run
 
-*1.Run create_tables.py from terminal to set up the database and tables.
-*2.Run etl.py from terminal to process and load data into the database.
-*3.Launch test.ipynb to run validation and example queries.
+* 1.Run create_tables.py from terminal to set up the database and tables.
+* 2.Run etl.py from terminal to process and load data into the database.
+* 3.Launch test.ipynb to run validation and example queries.
 
 ## Credit 
 
