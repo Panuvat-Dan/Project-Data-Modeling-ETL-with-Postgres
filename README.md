@@ -14,12 +14,12 @@ This project aims to utilize star schema by having fact table as songplays and t
 
 ## Files
 
-1.data (log,song data)
-2.create_tables.py
-3.sql_queries.pynb
-4.elt.pynb
-5.etl.py
-6.test.pynb
+\1.data (log,song data)
+\2.create_tables.py
+\3.sql_queries.pynb
+\4.elt.pynb
+\5.etl.py
+\6.test.pynb
 
 ## ETL pipeline 
 
@@ -30,6 +30,33 @@ After testing,ETL.py will work as following for processing the data:
 -Connect to the sparkify database and it will drop and create all the tables.
 -Parse out each json file from log&song data then load all of the files into dataframe.
 -All songs from Song_data and Log_data will be loaded into the tables on .
+
+### Dataset
+
+* Song data example
+  > song_data/A/B/C/TRABCEI128F424C983.json
+  > song_data/A/A/B/TRAABJL12903CDCF1A.json
+* Log data example
+  >log_data/2018/11/2018-11-12-events.json
+  >log_data/2018/11/2018-11-13-events.json
+* interface
+  >{
+    "num_songs": 1,
+    "artist_id": "ARJIE2Y1187B994AB7",
+    "artist_latitude": null,
+    "artist_longitude": null,
+    "artist_location": "",
+    "artist_name": "Line Renaud",
+    "song_id": "SOUPIRU12A6D4FA1E1",
+    "title": "Der Kleine Dompfaff",
+    "duration": 152.92036,
+    "year": 0
+    }
+## How to run
+
+\1.Run create_tables.py from terminal to set up the database and tables.
+\2.Run etl.py from terminal to process and load data into the database.
+\3.Launch test.ipynb to run validation and example queries.
 
 ## Credit 
 
