@@ -7,6 +7,8 @@ the data.Thus, as a data engineer requires skill to collect and transform and lo
 
 ## Project description
 
+In this project, you'll apply what you've learned on data modeling with Postgres and build an ETL pipeline using Python. To complete the project, you will need to define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
+
 ## Database schema 
 
 This project aims to utilize star schema by having fact table as songplays and the rest are dimention tables as picture below,
@@ -54,9 +56,9 @@ After testing,ETL.py will work as following for processing the data:
     }
 ## How to run
 
-\1.Run create_tables.py from terminal to set up the database and tables.
-\2.Run etl.py from terminal to process and load data into the database.
-\3.Launch test.ipynb to run validation and example queries.
+*1.Run create_tables.py from terminal to set up the database and tables.
+*2.Run etl.py from terminal to process and load data into the database.
+*3.Launch test.ipynb to run validation and example queries.
 
 ## Credit 
 
